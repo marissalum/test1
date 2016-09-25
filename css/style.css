@@ -1,0 +1,224 @@
+/*General Styling*/
+body {font-family: sans-serif;}
+h1, h2, h3, p, a, .btn {font-family: 'Montserrat', sans-serif;}
+
+.btn {
+  background-color: #1bbc9b;
+  padding: 15px 22px 15px 22px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+section {
+  padding: 40px 30px;
+}
+
+/*Nav Styling*/
+nav {
+  background-color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+nav ul {
+  float: right;
+  margin-top: 50px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #1bbc9b;
+}
+
+/*Header Styling*/
+header {
+  background: black url(../images/header-bg.jpg) center no-repeat;
+  color:white;
+  text-align: center;
+  height: 380px;
+  padding-top: 150px;
+}
+
+header h2 {
+  margin-bottom: 30px;
+}
+
+header h3 {
+  margin-bottom: 20px;
+}
+
+header .btn {
+  transition: all .2s ease;
+}
+
+header .btn:hover {
+  background: white;
+  color: #1bbc9b;
+}
+
+
+/*Features Styling*/
+.features {
+  text-align: center;
+  margin-bottom:30px;
+}
+
+.features article {
+  width: 20%;
+  display: inline-block;
+  margin-right: 25px;
+  padding-top: 10px;
+}
+
+.features article .btn {
+  border: 2px solid #1bbc9b;
+  color: #1bbc9b;
+  background-color: white;
+  transition: all .2s ease;
+}
+
+.features article .btn:hover {
+  background-color: #1bbc9b;
+  color: white;
+}
+
+/*mockup styling*/
+.mockup {
+  background: black url(../images/mockup-bg.jpg) center no-repeat;
+  background-attachment: fixed;
+  height: 520px;
+  color: white;
+  text-align: center;
+}
+
+.mockup h3 {
+  padding-bottom: 30px;
+}
+
+/*clients styling*/
+.clients {
+  background-color: #1bbc9b;
+  color: white;
+  text-align: center;
+}
+
+.clients ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.clients ul li img {
+  max-width: 150px;
+}
+
+.clients .btn {
+  border: 1px solid white;
+  color: white;
+  transition: all .2s ease;
+}
+
+.clients .btn:hover {
+  background: white;
+  color: #1bbc9b;
+}
+
+/*footer styling*/
+footer {
+  background-color: black;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+footer ul {
+  padding: 0px;
+}
+
+footer ul li {
+  display: inline;
+  margin: 10px;
+}
+
+footer ul li img {
+  max width: 30px;
+  transition: opacity .2s ease;
+}
+
+footer ul li img:hover {
+  opacity: .5;
+}
+
+/*Media Queries*/
+@media (max-width: 768px) {
+  nav ul {
+  float: none;
+  margin: 0px;}
+  nav {
+   text-align: center;
+   padding: 20px 0px;}
+.features article {
+  width: 100%;
+  display: block;}
+.mockup img {
+  max-width: 100%;}
+}
+
+/*nav img {
+  border: 1px solid red
+}
+
+ul li {
+  font-size:24px;
+    letter-spacing: 7px;
+}
+
+ul li a:hover {
+  color:green
+}
+
+h1 {
+  color:orange;
+}
+
+h2 {
+  font-size:28px;
+  font-style: italic
+}
+
+a {
+  font-weight:bold;
+}
+
+header {
+  background-image: url(../images/header-bg.jpg);
+  background-color: yellowgreen;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+section {
+  background: maroon;
+}
+
+.features {
+  background: oange;
+}
+
+.clients {
+  background: yellow
+}*/
